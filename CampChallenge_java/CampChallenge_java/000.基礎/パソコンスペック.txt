@@ -1,0 +1,9 @@
+DirectX 診断ツール にて自分のパソコンのスペックを調査
+オペレーティングシステム:Windows 7 Home Premium 64 ビット
+プロセッサ:Intel(R)Core(TM)i7-2630QM CPU @ 2.00GHz(8 CPUs),~2.0GHz
+メモリ:4096MB RAM
+DirectXバージョン:DirectX 11
+グラフィックボード
+チップの種類:Intel(R)HD Graphics Family
+DACの種類:Internal
+メモリ合計:1696MB
