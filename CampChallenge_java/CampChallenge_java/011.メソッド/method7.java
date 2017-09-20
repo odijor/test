@@ -63,7 +63,8 @@ public class method7 extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             HashMap<String,String>data=new HashMap<>();
-            for(int i=1;i<4;i++){
+            int limit=3;
+            for(int i=1;i<=limit;i++){
             data=makedata(i,out);
             if(data.containsValue(null)){
                 out.println("<br>");
