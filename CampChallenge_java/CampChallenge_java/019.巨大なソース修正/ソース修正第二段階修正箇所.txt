@@ -1,0 +1,23 @@
+修正箇所
+17/10/17・検索において存在しないデータを入力すると
+	java.sql.SQLException: Illegal operation on empty result set.
+	というエラーが発生する。
+17/10/19・変更、削除のサーブレットが作られていない。
+17/10/13・検索の詳細情報が常にID=2の人 
+17/10/13・直リンク防止がない 
+17/10/13・トップに戻れない 
+17/10/16・検索で何も記入しないと
+	java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+	というエラーが発生する
+17/10/13・resultdetail,deleteresultに検索画面に戻るボタンがない 
+17/10/17・検索が部分検索不可
+17/10/13・update.jsp,updateresult.jspに詳細検索に戻るボタンがない
+17/10/16・update.jspの初期値が未設定 
+17/10/16・updateresult.jspに更新後のデータが出力されない
+17/10/13・resultDataをrequestスコープからsessionスコープへ変更 
+17/10/16・deleteの名前の位置を微調整 
+17/10/16・削除,更新から詳細に戻るとnull 
+17/10/19・DTOに変更、削除の機能がない
+17/10/16・更新について未入力でも通る箇所がある
+17/10/18・検索結果が1人分しか表示されない
+17/10/19・種別が数字
